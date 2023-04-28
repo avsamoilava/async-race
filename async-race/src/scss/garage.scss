@@ -1,0 +1,74 @@
+.garage {
+
+  &__controls {
+    margin-bottom: 30px;
+  }
+}
+
+.controls {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.61);
+  padding: 20px;
+
+  &__row {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+.car {
+  border-bottom: 4px dotted #000;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  position: relative;
+
+  &__controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__finish {
+    position: absolute;
+    right: 5%;
+    bottom: 1%;
+  }
+
+  &__model {
+    display: inline-flex;
+  }
+  
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 2rem;
+  color: white;
+}
+
+.garage__total {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.garage__page-count {
+  margin-bottom: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background: url(assets/images/general-bg.jpg) center/cover no-repeat;
+  min-height: 100vh;
+  padding: 1%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.719);
+  width: 100%;
+  margin: 0 auto;
+  align-self: stretch;
+  justify-self: stretch;
+  padding: 1.5%;
+}
+
+button, a {
+  text-transform: uppercase;
+}
+
+.header {
+  margin-bottom: 40px;
+  &__btns {
+    display: flex;
+    gap: 20px;
+  }
+}

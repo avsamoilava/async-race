@@ -1,0 +1,49 @@
+$dark: #1F0400;
+$light: #CDAE8C;
+$colored: #CD6B5E;
+$go: #665012;
+$stop: #661C12;
+$dark-active: #33211E;
+
+
+.btn {
+  padding: 6px 10px;
+  outline: none;
+  border: none;
+  background: none; 
+  border-radius: 5px;
+  border: 1px solid $dark;
+  cursor: pointer;
+
+  :disabled {
+    background: #CDAE8C;
+  }
+  
+
+  &_round {
+    border-radius: 50%;
+    border: 1px solid $dark;
+  }
+
+  &_dark {
+    color: white;
+    background: $dark;
+    transition: background 0.3s;
+
+  }
+
+  &_colored {
+    background-color: $colored;
+  }
+
+}
+
+.pageBtns {
+  display: flex;
+  gap: 15px;
+}
+
+.car_selected {
+  color: white;
+  background: $dark-active;
+}
